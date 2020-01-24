@@ -1,10 +1,10 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1>Order Your Burger </h1>
-        <p>Burger Orders for Pickup.</p>
+        <h1>Welcome to the Tommy C bar and grill! </h1>
+        <p>Order Your Burger</p>
         <br>
-        <h2>Select a Burger or Sandwich</h2>
+        <h2>Select a Burger</h2>
         <panel>
             <form class="create-form">
                 <div class="form-group">
@@ -14,11 +14,8 @@
                         <option value="Nothing Selected" selected>Please Select a Sandwich</option>
                         <option value="Hamburger">Hamburger</option>
                         <option value="CheeseBurger">CheeseBurger</option>
-                        <option value="DoubleBfChz">Double Up (double meat and cheese)</option>
+                        <option value="DoubleBfChz">Double Burger (double meat and cheese)</option>
                         <option value="VeggieBurger">Veggie Burger</option>
-                        <option value="PulledPork">Pulled Pork Sandwich</option>
-                        <option value="ChichenClub">Chicken Club Sandwich</option>
-                        <option value="SteaknChz">Steak and Cheese Sandwich</option>
                     </select>
 
                     <button type="submit" class="btn btn-success" id="addburger">
@@ -35,7 +32,6 @@
                     <p>Send order to cashier when ready for pick up</p>
                 </div>
                 <div class="panel-body">
-
                     <ul>
                         {{#each burgers}}
                         {{#unless devoured}}
@@ -67,9 +63,6 @@
                         {{/if}}
                         {{/each}}
                     </ul>
-
-
-
                 </div>
             </div>
         </div>
