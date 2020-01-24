@@ -1,1 +1,0 @@
-# burger-sql-app
