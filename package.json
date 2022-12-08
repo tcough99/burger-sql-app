@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/tcough99/burger-sql-app#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "core-util-is": "^1.0.2",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^3.1.0",
     "mysql": "^2.18.0",
     "webpack-dev-server": "^3.10.1"
